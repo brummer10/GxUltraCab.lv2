@@ -1,0 +1,40 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://guitarix.sourceforge.net/plugins/gx_ultracab_#_ultracab_>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-gxultracab.html> ;
+        modgui:stylesheet <modgui/stylesheet-gxultracab.css> ;
+        modgui:screenshot <modgui/screenshot-gxultracab.png> ;
+        modgui:thumbnail <modgui/thumbnail-gxultracab.png> ;
+        modgui:brand " Guitarix " ;
+        modgui:label "GxUltraCab" ;
+        modgui:model "pedal" ;
+        modgui:panel "blue" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "TOP" ;
+            lv2:name "TOP" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "MIDS" ;
+            lv2:name "MIDS" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "SIZE" ;
+            lv2:name "SIZE" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "RESONANCE" ;
+            lv2:name "RESONANCE" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "PUNCH" ;
+            lv2:name "PUNCH" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "GAIN" ;
+            lv2:name "GAIN" ;
+        ] ;
+    ] .
