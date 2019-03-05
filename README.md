@@ -1,5 +1,5 @@
 # GxUltraCab.lv2
-Cabinet simulator Lv2 plugin
+Cabinet simulator Lv2 stereo plugin
 
 
 ![GxUltraCab](https://raw.githubusercontent.com/brummer10/GxUltraCab.lv2/master/GxUltraCab.png)
