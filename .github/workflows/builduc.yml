@@ -9,5 +9,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: Install Dependencies
+    - run: apt install lv2-dev
     - name: make
       run: make
