@@ -1,6 +1,8 @@
 # GxUltraCab.lv2
 Cabinet simulator Lv2 stereo plugin
 
+![](https://github.com/brummer10/GxUltraCab.lv2/workflows/build/badge.svg)
+
 
 ![GxUltraCab](https://raw.githubusercontent.com/brummer10/GxUltraCab.lv2/master/GxUltraCab.png)
 
