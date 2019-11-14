@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/installdep@v1
     - name: Install lv2-dev
       run: |
         sudo apt-get install lv2-dev
