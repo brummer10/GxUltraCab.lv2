@@ -153,6 +153,8 @@ rdfs:comment """
 <http://guitarix.sourceforge.net/plugins/gx_ultracab_gui#_ultracab_>
   a guiext:X11UI;
   guiext:binary <gx_ultracab_ui.so>;
-        lv2:extensionData guiext::idle ; 
-        lv2:requiredFeature guiext:makeResident;
+        lv2:extensionData guiext::idle ;
+        lv2:extensionData guiext:resize ;
+        lv2:extensionData guiext:idleInterface;
+        lv2:requiredFeature guiext:idleInterface ;
   .
