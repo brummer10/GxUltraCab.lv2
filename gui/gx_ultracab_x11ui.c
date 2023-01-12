@@ -268,7 +268,7 @@ static LV2UI_Handle instantiate(const LV2UI_Descriptor * descriptor,
 	ui->controls[0] = (gx_controller) {{1.0, 1.0, 0.0, 1.0, 1.0}, {40, 60, 81, 81}, false,"POWER", BSWITCH, BYPASS};
 	ui->controls[1] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {160, 60, 81, 81}, false,"TOP", KNOB, TOP};
 	ui->controls[2] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {260, 60, 81, 81}, false,"MIDS", KNOB, MIDS};
-	ui->controls[3] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {360, 60, 81, 81}, false,"SIZE", KNOB, SIZE};
+	ui->controls[3] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {360, 60, 81, 81}, false,"SIZE", KNOB, SIZE_};
 	ui->controls[4] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {460, 60, 81, 81}, false,"RESONANCE", KNOB, RESONANCE};
 	ui->controls[5] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {560, 60, 81, 81}, false,"PUNCH", KNOB, PUNCH};
 	ui->controls[6] = (gx_controller) {{0.5, 0.5, 0.0, 1.0, 0.01}, {660, 60, 81, 81}, false,"GAIN", KNOB, GAIN};

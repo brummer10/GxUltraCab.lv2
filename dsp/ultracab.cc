@@ -512,7 +512,7 @@ void Dsp::connect(uint32_t port,void* data)
 	case RESONANCE: 
 		fslider3_ = (float*)data; // , 0.5, 0.0, 1.0, 0.01 
 		break;
-	case SIZE: 
+	case SIZE_: 
 		fslider2_ = (float*)data; // , 0.5, 0.0, 1.0, 0.01 
 		break;
 	case TOP: 

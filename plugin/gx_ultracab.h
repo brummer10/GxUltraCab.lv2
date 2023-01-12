@@ -39,7 +39,7 @@ typedef enum
    MIDS, 
    PUNCH, 
    RESONANCE, 
-   SIZE, 
+   SIZE_, 
    TOP, 
 } PortIndex;
 
